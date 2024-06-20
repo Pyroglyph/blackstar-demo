@@ -22,10 +22,15 @@
 		<h1 class="hero-gradient from-pink-500 to-violet-500">Deliver.</h1>
 	</div>
 	<div class="card m-8 flex flex-col items-center p-8 sm:mx-auto sm:flex-row">
-		<p>
-			We are the world's most effective consulting group, with over 3,000 projects completed. We
-			find innovative solutions for your business. We are <strong>BLACKSTAR</strong>.
-		</p>
+		<div>
+			<p>
+				We are the world's most effective consulting group. With over 3,000 projects completed, we
+				will find innovative solutions for your business.
+			</p>
+			<p>
+				We are <strong>BLACKSTAR</strong>.
+			</p>
+		</div>
 
 		<button class="variant-filled btn btn-lg mt-8 sm:ml-8 sm:mt-0">Learn more</button>
 	</div>
