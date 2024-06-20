@@ -13,7 +13,17 @@
 	</aside>
 {/if}
 
-<AppBar><img src="/logo.svg" alt="Logo" class="h-12" /></AppBar>
+<AppBar>
+	<img src="/logo.svg" alt="Logo" class="h-12" />
+	<svelte:fragment slot="trail">
+		<nav class="list-nav flex items-stretch justify-end w-full">
+			<a href="/about">About</a>
+			<a href="/services">Services</a>
+			<a href="/careers">Careers</a>
+			<a href="/contact">Contact</a>
+		</nav>
+	</svelte:fragment>
+</AppBar>
 
 <div class="container mx-auto my-16">
 	<div class="mx-auto my-16 w-48 text-center lg:my-32">
