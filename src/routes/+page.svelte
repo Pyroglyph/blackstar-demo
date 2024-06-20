@@ -1,12 +1,17 @@
 <script lang="ts">
 	import { AppBar } from '@skeletonlabs/skeleton';
+
+	let dismissedAlert = false;
 </script>
 
-<aside class="alert variant-soft-warning">
-	<div class="alert-message">
-		⚠️ Hey! This is a demo site, and therefore does not represent a real company.
-	</div>
-</aside>
+{#if !dismissedAlert}
+	<aside class="alert variant-soft-warning">
+		<div class="flex w-full flex-row items-center justify-between">
+			<span>⚠️ Hey! This is a demo site, and therefore does not represent a real company.</span>
+			<button on:click={() => (dismissedAlert = true)}>✕</button>
+		</div>
+	</aside>
+{/if}
 
 <AppBar><img src="/logo.svg" alt="Logo" class="h-12" /></AppBar>
 
