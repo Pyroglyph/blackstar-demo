@@ -1,2 +1,47 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import { AppBar } from '@skeletonlabs/skeleton';
+</script>
+
+<aside class="alert variant-soft-warning">
+	<div class="alert-message">
+		⚠️ Hey! This is a demo site, and therefore does not represent a real company.
+	</div>
+</aside>
+
+<AppBar><img src="/logo.svg" alt="Logo" class="h-12" /></AppBar>
+
+<div class="container mx-auto my-16">
+	<div class="mx-auto my-16 w-48 text-center lg:my-32">
+		<h1 class="hero-gradient from-blue-500 to-cyan-300">Design.</h1>
+		<h1 class="hero-gradient from-red-500 to-yellow-500">Adapt.</h1>
+		<h1 class="hero-gradient from-pink-500 to-violet-500">Deliver.</h1>
+	</div>
+	<div class="card m-8 flex flex-col items-center p-8 sm:mx-auto sm:flex-row">
+		<p>
+			We are the world's most effective consulting group, with over 3,000 projects completed. We
+			find innovative solutions for your business. We are <strong>BLACKSTAR</strong>.
+		</p>
+
+		<button class="variant-filled btn btn-lg mt-8 sm:ml-8 sm:mt-0">Learn more</button>
+	</div>
+</div>
+<div class="collab-image flex items-center justify-center">
+	<div class="card variant-glass-surface h2 mb-48 mt-96 w-auto p-8 text-white">
+		Working with you, every step of the way.
+	</div>
+</div>
+
+<style lang="less">
+	.hero-gradient {
+		@apply h1 bg-gradient-to-br box-decoration-clone bg-clip-text text-transparent;
+
+		font-size: 3rem;
+		line-height: 3.75rem;
+	}
+
+	.collab-image {
+		@apply w-full bg-cover bg-center bg-no-repeat;
+		background: url('https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=1920&auto=format&fit=crop')
+			center center / cover no-repeat;
+	}
+</style>
