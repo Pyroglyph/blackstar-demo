@@ -31,8 +31,9 @@
 	</div>
 </div>
 <div class="collab-image flex items-center justify-center">
-	<div class="card variant-glass-surface h2 mb-48 mt-96 w-auto p-8 text-white">
-		Working with you, every step of the way.
+	<div class="card variant-glass-surface h2 mx-4 mb-48 mt-96 w-auto p-8 text-center text-white">
+		<span class="text-nowrap"> Working with you, </span>
+		<span class="text-nowrap"> every step of the way. </span>
 	</div>
 </div>
 
