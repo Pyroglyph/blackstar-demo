@@ -1,5 +1,4 @@
 <script lang="ts">
-	
 </script>
 
 <div class="container mx-auto my-16">
@@ -8,7 +7,7 @@
 		<h1 class="hero-gradient from-red-500 to-yellow-500">Adapt.</h1>
 		<h1 class="hero-gradient from-pink-500 to-violet-500">Deliver.</h1>
 	</div>
-	<div class="card m-8 flex flex-col items-center p-8 sm:mx-auto sm:flex-row">
+	<div class="card m-4 flex flex-col items-center p-8 sm:m-8 sm:mx-auto sm:flex-row">
 		<div>
 			<p>
 				We are the world's most effective consulting group. With over 3,000 projects completed, we
@@ -23,9 +22,11 @@
 	</div>
 </div>
 <div class="collab-image flex items-center justify-center">
-	<div class="card variant-glass-surface h2 mx-4 mb-48 mt-96 w-auto p-8 text-center text-white">
-		<span class="text-nowrap"> Working with you, </span>
-		<span class="text-nowrap"> every step of the way. </span>
+	<div
+		class="card variant-glass-surface h2 mx-4 mb-32 mt-48 w-auto p-4 text-center text-white sm:mb-48 sm:mt-96 sm:p-8"
+	>
+		<span class="text-nowrap">Working with you,</span>
+		<span class="text-nowrap">every step of the way.</span>
 	</div>
 </div>
 
