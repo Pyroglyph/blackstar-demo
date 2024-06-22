@@ -34,7 +34,7 @@
 		@apply h1 bg-gradient-to-br box-decoration-clone bg-clip-text text-transparent;
 
 		font-size: 3rem;
-		line-height: 3.75rem;
+		line-height: 3.8rem;
 	}
 
 	.collab-image {
