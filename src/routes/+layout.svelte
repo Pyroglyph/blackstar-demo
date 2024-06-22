@@ -8,7 +8,11 @@
 {#if !dismissedAlert}
 	<aside class="alert variant-soft-warning">
 		<div class="flex w-full flex-row items-center justify-between">
-			<span>⚠️ Hey! This is a demo site, and therefore does not represent a real company.</span>
+			<span class="mr-4">⚠️</span>
+			<span class="flex-grow">
+				Hey! This is a portfolio demo.
+				<a class="underline" href="https://mccarroll.dev/">Learn more</a>
+			</span>
 			<button on:click={() => (dismissedAlert = true)}>✕</button>
 		</div>
 	</aside>
@@ -20,10 +24,10 @@
 	</a>
 
 	<nav class="list-nav flex sm:inline-flex sm:flex-1 sm:justify-end">
-		<a href="/about">About</a>
-		<a href="/services">Services</a>
-		<a href="/careers">Careers</a>
-		<a href="/contact">Contact</a>
+		<a class="btn-sm !px-3" href="/about">About</a>
+		<a class="btn-sm !px-3" href="/services">Services</a>
+		<a class="btn-sm !px-3" href="/careers">Careers</a>
+		<a class="btn-sm !px-3" href="/contact">Contact</a>
 	</nav>
 </AppBar>
 
