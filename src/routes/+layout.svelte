@@ -33,4 +33,33 @@
 
 <slot></slot>
 
+<footer class="bg-surface-100-800-token inline-block p-4 text-sm sm:p-8">
+	<div class="flex w-full flex-col sm:flex-row">
+		<div class="mb-4 flex-1">
+			<h6 class="h6 mb-2">Additional information</h6>
+			<p class="mt-2">
+				Blackstar International is a fictitious company created for the purpose of this portfolio
+				demo. Any resemblance to a real business is purely coincidental.
+			</p>
+			<p class="mt-2">
+				Generative AI was used to create realistic passages of text. This is because I am a
+				developer, not a copy writer.
+			</p>
+		</div>
+		<div class="mb-4 flex-1">
+			<h6 class="h6 mb-2">Legal</h6>
+			<p class="mt-2">
+				All images in this demo are under the
+				<a class="underline" href="https://unsplash.com/license">Unsplash License</a>.
+			</p>
+		</div>
+	</div>
+	<div class="text-center mb-2 sm:mt-4">
+		Like this demo? <a class="underline" href="mailto:connor@mccarroll.dev">Contact me</a> and we can discuss your project!
+	</div>
+	<div class="text-center">
+		&copy; {new Date().getFullYear()} <a href="https://mccarroll.dev/">Connor McCarroll</a>
+	</div>
+</footer>
+
 <style></style>
