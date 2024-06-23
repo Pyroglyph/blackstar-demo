@@ -34,8 +34,8 @@
 
 <slot></slot>
 
-<footer class="bg-surface-100-800-token inline-block p-4 text-sm sm:p-8">
-	<div class="flex w-full flex-col sm:flex-row">
+<footer class="bg-surface-100-800-token inline-block w-full p-4 text-sm sm:p-8">
+	<div class="mx-auto flex w-full max-w-screen-lg flex-col sm:flex-row">
 		<div class="mb-4 flex-1">
 			<h6 class="h6 mb-2">Additional information</h6>
 			<p class="mt-2">
