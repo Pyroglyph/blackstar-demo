@@ -1,6 +1,7 @@
 <script>
 	import '../app.css';
 	import { AppBar } from '@skeletonlabs/skeleton';
+	import { page } from '$app/stores';
 
 	let dismissedAlert = false;
 </script>
@@ -41,10 +42,12 @@
 				Blackstar International is a fictitious company created for the purpose of this portfolio
 				demo. Any resemblance to a real business is purely coincidental.
 			</p>
-			<p class="mt-2">
-				Generative AI was used to create realistic passages of text. This is because I am a
-				developer, not a copy writer.
-			</p>
+			{#if $page.data.aiUsed}
+				<p class="mt-2">
+					Generative AI was used to create some of the content on this page. This is because I am a
+					developer, not a copy writer.
+				</p>
+			{/if}
 		</div>
 		<div class="mb-4 flex-1">
 			<h6 class="h6 mb-2">Legal</h6>
