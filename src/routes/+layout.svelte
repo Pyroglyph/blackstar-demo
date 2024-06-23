@@ -58,7 +58,12 @@
 		</div>
 	</div>
 	<div class="mb-2 text-center sm:mt-4">
-		Like this demo? <a class="underline" href="mailto:connor@mccarroll.dev">Contact me</a>!
+		Like this demo? <a
+			class="variant-filled btn btn-sm ml-2"
+			href="mailto:connor@mccarroll.dev?subject=I like your portfolio!"
+		>
+			Contact me
+		</a>
 	</div>
 	<div class="text-center">
 		&copy; {new Date().getFullYear()}
