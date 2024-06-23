@@ -54,11 +54,12 @@
 			</p>
 		</div>
 	</div>
-	<div class="text-center mb-2 sm:mt-4">
-		Like this demo? <a class="underline" href="mailto:connor@mccarroll.dev">Contact me</a> and we can discuss your project!
+	<div class="mb-2 text-center sm:mt-4">
+		Like this demo? <a class="underline" href="mailto:connor@mccarroll.dev">Contact me</a>!
 	</div>
 	<div class="text-center">
-		&copy; {new Date().getFullYear()} <a href="https://mccarroll.dev/">Connor McCarroll</a>
+		&copy; {new Date().getFullYear()}
+		<a href="https://mccarroll.dev/">Connor McCarroll</a>
 	</div>
 </footer>
 
