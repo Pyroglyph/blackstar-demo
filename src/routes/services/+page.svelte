@@ -1,4 +1,4 @@
-<div class="mx-4 my-8 max-w-screen-sm sm:mx-auto">
+<div class="mx-4 my-8 max-w-screen-md sm:mx-auto">
 	<h1 class="h1 my-8">Services</h1>
 	<div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
 		<section>
