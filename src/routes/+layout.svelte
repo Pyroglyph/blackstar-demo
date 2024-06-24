@@ -1,11 +1,15 @@
 <script>
 	import '../app.css';
-	import { AppBar } from '@skeletonlabs/skeleton';
+	import { AppBar, Toast, getToastStore, initializeStores } from '@skeletonlabs/skeleton';
 	import { page } from '$app/stores';
 	import { mailtoLink } from '$lib/utils';
 
+	initializeStores();
+
 	let dismissedAlert = false;
 </script>
+
+<Toast />
 
 {#if !dismissedAlert}
 	<aside class="alert variant-soft-warning text-sm">
@@ -13,7 +17,7 @@
 			<div class="mr-4">⚠️</div>
 			<div class="flex-grow">
 				<span class="text-nowrap">Hey! This is a portfolio demo.</span>
-				<a class="underline text-nowrap" href="https://mccarroll.dev/">Learn more</a>
+				<a class="text-nowrap underline" href="https://mccarroll.dev/">Learn more</a>
 			</div>
 			<button on:click={() => (dismissedAlert = true)}>✕</button>
 		</div>
