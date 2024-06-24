@@ -1,3 +1,6 @@
+<script lang="ts">
+	import { mailtoLink } from "$lib/utils";
+</script>
 <div class="mx-4 my-8 max-w-screen-md sm:mx-auto">
 	<h1 class="h1 my-8">Services</h1>
 	<div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
@@ -49,7 +52,7 @@
 		<div class="flex-1">Ready to take your business to the next level?</div>
 		<a
 			class="variant-filled btn btn-lg mt-4"
-			href="mailto:connor@mccarroll.dev?subject=I like your portfolio!"
+			href={mailtoLink}
 		>
 			Contact us
 		</a>

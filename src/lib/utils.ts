@@ -1,0 +1,1 @@
+export const mailtoLink = 'mailto:connor@mccarroll.dev?subject=I like your portfolio!';

@@ -2,6 +2,7 @@
 	import '../app.css';
 	import { AppBar } from '@skeletonlabs/skeleton';
 	import { page } from '$app/stores';
+	import { mailtoLink } from '$lib/utils';
 
 	let dismissedAlert = false;
 </script>
@@ -60,7 +61,7 @@
 	<div class="mb-2 text-center sm:mt-4">
 		Like this demo? <a
 			class="variant-filled btn btn-sm ml-2"
-			href="mailto:connor@mccarroll.dev?subject=I like your portfolio!"
+			href={mailtoLink}
 		>
 			Contact me
 		</a>
