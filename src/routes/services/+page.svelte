@@ -57,11 +57,6 @@
 </div>
 
 <style lang="less">
-	.h3 {
-		// display: inline-block;
-		// width: fit-content;
-	}
-
 	.h3::after {
 		@apply relative mt-3 block h-1 w-full bg-gradient-to-r;
 		content: '';
