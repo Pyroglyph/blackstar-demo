@@ -1,7 +1,8 @@
 <script>
 	import '../app.css';
-	import { AppBar, Toast, getToastStore, initializeStores } from '@skeletonlabs/skeleton';
+	import { AppBar, Toast, initializeStores } from '@skeletonlabs/skeleton';
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
 	import { mailtoLink } from '$lib/utils';
 
 	initializeStores();
@@ -25,15 +26,15 @@
 {/if}
 
 <AppBar slotDefault="mx-auto sm:mx-0 flex flex-col sm:flex-row items-center" gridColumns="1">
-	<a href="/" class="mx-auto my-3 sm:mx-0 sm:my-0 sm:inline-block">
-		<img src="/logo.svg" alt="Logo" class="h-8" />
+	<a href="{base}/" class="mx-auto my-3 sm:mx-0 sm:my-0 sm:inline-block">
+		<img src="{base}/logo.svg" alt="Logo" class="h-8" />
 	</a>
 
 	<nav class="list-nav flex sm:inline-flex sm:flex-1 sm:justify-end">
-		<a class="btn-sm !px-3" href="/about">About</a>
-		<a class="btn-sm !px-3" href="/services">Services</a>
-		<a class="btn-sm !px-3" href="/careers">Careers</a>
-		<a class="btn-sm !px-3" href="/contact">Contact</a>
+		<a class="btn-sm !px-3" href="{base}/about">About</a>
+		<a class="btn-sm !px-3" href="{base}/services">Services</a>
+		<a class="btn-sm !px-3" href="{base}/careers">Careers</a>
+		<a class="btn-sm !px-3" href="{base}/contact">Contact</a>
 	</nav>
 </AppBar>
 
